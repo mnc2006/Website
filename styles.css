@@ -3,6 +3,10 @@ element.style {
 html, body {
   overflow-x: hidden;
 }
+.nav-tabs{
+
+}
+
 .img-responsive {
   max-width: none;
   height: auto;
@@ -20,7 +24,5 @@ html {
 }
 html {
   font-family: sans-serif; helvetica
+  display: block;
 }
- html {
-   display: block;
- }
