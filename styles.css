@@ -1,0 +1,26 @@
+element.style {
+}
+html, body {
+  overflow-x: hidden;
+}
+.img-responsive {
+  max-width: none;
+  height: auto;
+  display: block;
+}
+body {
+  padding-top: 70px
+}
+footer {
+  padding: 30px 0;
+}
+html {
+  font-size: 10px;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+  font-family: sans-serif; helvetica
+}
+ html {
+   display: block;
+ }
