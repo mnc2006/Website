@@ -3,10 +3,25 @@ element.style {
 html, body {
   overflow-x: hidden;
 }
-.nav-tabs{
-
+.nav4 {
+  background-color: inherit;
+  height: auto;
+  width: 150px;
+  float:left;
+  padding-left: 20px;
+  font-family: Helvetica, sans-serif;
+  color: #333333;
+  padding-top: 20px;
+  padding-right: 20px
 }
-
+.blogs {
+  display: inline-block;
+  width: 64px;
+  height: 64px; 
+}
+a.blogs:hover {
+  background: #C93
+}
 .img-responsive {
   max-width: none;
   height: auto;
@@ -20,7 +35,6 @@ footer {
 }
 html {
   font-size: 10px;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 html {
   font-family: sans-serif; helvetica
