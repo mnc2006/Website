@@ -3,6 +3,9 @@ element.style {
 html, body {
   overflow-x: hidden;
 }
+image.background {
+
+}
 .nav4 {
   background-color: inherit;
   height: auto;
@@ -17,7 +20,7 @@ html, body {
 .blogs {
   display: inline-block;
   width: 64px;
-  height: 64px; 
+  height: 64px;
 }
 a.blogs:hover {
   background: #C93
@@ -26,6 +29,9 @@ a.blogs:hover {
   max-width: none;
   height: auto;
   display: block;
+}
+font{
+
 }
 body {
   padding-top: 70px
