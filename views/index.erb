@@ -52,8 +52,9 @@
           <img class="img-responsive" src="/images/logo.png"
         <p>&copy; IronYard-Michelle 2015</p>
         <div class="col-xs-6 col-sm-3 sidebar" id="sidebar">
-          <% sidebars.each do |sidebar| %>
+          <% sidebar.each do |sidebar| %>
             <a href="#" class="list-group">Nav 1</a> <% sidebar [:class] %>
+            <% end %>
           </div>
       </footer>
     </div>

@@ -4,7 +4,7 @@ get "/" do
   sidebars = [
     {:class => 'list-group', :text => "Nav 1"},
     {:class => 'list-group', :text => "Nav 2"},
-    {:class => 'list-group', :text => "Nav 3"},
+    {:class => 'list-group', :text => "Nav 3"}
   ]
-  erb :index, :locals => {:sidebars => sidebar}
+  erb :index, :locals => {:sidebar => sidebars}
 end
